@@ -14,14 +14,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 terraform {
     required_version            = ">= 0.12.24"
-
-    // backend "remote" {
-    //     hostname                = "app.terraform.io"
-    //     organization            = "pgryzan"
-    //     workspaces {
-    //         name                = "hcl"
-    //     }
-    // }
 }
 
 locals {
